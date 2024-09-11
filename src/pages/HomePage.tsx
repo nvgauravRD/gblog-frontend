@@ -4,7 +4,9 @@ import { Data } from "../Data/Data";
 export default function HomePage() {
   return (
     <>
+      {/* main wrapper */}
       <main className="flex flex-col items-center min-h-96 p-5">
+        {/* the Queue of blog posts are rendered here */}
         <main className="flex flex-wrap justify-center">{RenderPosts()}</main>
       </main>
     </>

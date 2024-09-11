@@ -2,10 +2,10 @@
   display: none;
 }
 
-.nav-links {
+.navLinks {
   display: flex;
 }
-.nav-links > li {
+.navLinks > li {
   margin-right: 30px;
 }
 
@@ -14,16 +14,16 @@
     display: block;
     position: relative;
   }
-  .nav-links {
+  .navLinks {
     flex-direction: column;
     display: none;
     align-items: start;
     padding: 10px;
     width: 100%;
-    animation: slideDown ease-in-out;
+    animation: slideDown 1s ease-in-out;
     transition: all ease-in;
   }
-  .nav-links > * {
+  .navLinks > * {
     margin: 15px 0;
     width: 100%;
   }

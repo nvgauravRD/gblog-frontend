@@ -1,5 +1,6 @@
 import { postData } from "../../Data/Data";
 
+// this function returns the blog post without an image
 export function BlogPostWithoutImage({ data }: { data: postData }) {
   return (
     <article className="min-w-[300px] bg-white w-[300px] rounded overflow-hidden m-2">
